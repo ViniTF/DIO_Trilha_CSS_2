@@ -1,0 +1,106 @@
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+header .menu-logo, header .search {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo-menu img {
+    margin-left: 16px;
+ }
+ 
+ header .search input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCC;
+ }
+ 
+ header .search button {
+    width: 57px;
+    height: 40px;
+ }
+ 
+ header .notification {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+ }
+ 
+ header .notification img {
+    width: 34px;
+    height: 34px;
+ }
+
+main {
+    display: flex;
+}
+
+main .sidebar {
+    width: 250px;
+    margin-top: 40px;
+}
+
+main .sidebar .home,
+main .sidebar .explore,
+main .sidebar .youtube,
+main .sidebar .music,
+main .sidebar .like,
+main .sidebar .clock,
+main .sidebar .download,
+main .sidebar .movie,
+main .sidebar .learn,
+main .sidebar .sport {
+   display: flex;
+   align-items: center;
+   padding-bottom: 22px;
+   margin-left: 36px;
+}
+
+main .sidebar .home h1,
+main .sidebar .explore h3,
+main .sidebar .youtube h3,
+main .sidebar .music h3,
+main .sidebar .like h3,
+main .sidebar .clock h3,
+main .sidebar .download h3,
+main .sidebar .movie h3,
+main .sidebar .learn h3,
+main .sidebar .sport h3 {
+   margin-left: 16px;
+}
+
+main .sidebar p {
+    padding-left: 8px;
+}
+
+main .playlist-video {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.playlist-video .thumbnail .thumbnail-video img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.playlist-video .thumbnail .thumbnail-infos {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 80%;
+    margin: 10px 0px 30px 0px;
+}
+
+.playlist-video .thumbnail .thumbnail-infos p {
+    font-weight: 600;
+}
+
+.playlist-video .thumbnail .thumbnail-views {
+    grid-area: 2 / 2 / 3 / 3;
+}
